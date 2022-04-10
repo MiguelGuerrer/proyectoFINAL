@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Mybody{
+    background-color: pink;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+
+}
+
+.buscador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.content2{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding: 8px;
+    color: white;
+
+}
+
+.article1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+
+}
