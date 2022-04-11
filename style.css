@@ -17,7 +17,7 @@
 
 }
 
-.buscador{
+.buscador1{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
@@ -36,7 +36,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3px;
 
 }
 
@@ -71,7 +73,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: white;
+    color: black;
     margin-top: 80px;
 
 }
@@ -105,7 +107,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-around;
    border: 20px;
    padding: 30px;
 
@@ -123,4 +125,13 @@
     .h1-titulo{
         color: black;
         text-align: center;
+    }
+    .footer-index{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 100px;
+        color: aliceblue;
     }
