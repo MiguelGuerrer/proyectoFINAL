@@ -90,6 +90,11 @@
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+.ahome{
+    text-decoration: none;
 }
 
 .mybody{
@@ -126,7 +131,6 @@
         color: black;
         text-align: center;
     }
-<<<<<<< HEAD
 
     .nombreplaylisyt{
         display: flex;
@@ -153,8 +157,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
-         
-=======
+    }
     .footer-index{
         background-color: black;
         display: flex;
@@ -163,5 +166,4 @@
         justify-content: center;
         border-radius: 100px;
         color: aliceblue;
->>>>>>> 63e14a069b4476bd738674d665bae724294e464c
     }
