@@ -48,27 +48,53 @@
 
 }
 
-.article1{
+.articulo1{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-around;
-
+    margin-top: 50px;
 }
+
+.articulo2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
 .h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: white;
+    margin-top: 80px;
 
+}
+
+.foto{
+    size-adjust: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.nombreartista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .mybody{
     background-color: black;
 }
-.h1{
+/*.h1{
     color: white;
-}
+} */
 .caja1{
     display: flex;
     flex-wrap: wrap;
