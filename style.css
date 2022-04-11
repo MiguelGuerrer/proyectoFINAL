@@ -90,6 +90,11 @@
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+.ahome{
+    text-decoration: none;
 }
 
 .mybody{
@@ -125,6 +130,33 @@
     .h1-titulo{
         color: black;
         text-align: center;
+    }
+
+    .nombreplaylisyt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .divplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .divplaylist2{
+        margin-left: 10px;
+    }
+    .ulplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
     }
     .footer-index{
         background-color: black;
