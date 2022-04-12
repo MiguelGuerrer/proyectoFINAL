@@ -167,3 +167,85 @@
         border-radius: 100px;
         color: aliceblue;
     }
+
+
+
+.imgDetailAlbum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}    
+
+.nombreAlbum{
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+.artista{
+    color: rgb(192, 28, 61);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;  
+}
+
+.genero{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.public{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.lista2{
+    text-align: center;
+    color: rgb(114, 9, 30);
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.sectionArtist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.articleArtist{
+    width: 350px;
+}
+
+.sinDelineado{
+    text-decoration: none;
+}
+
+.imgDetailArtist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.nombreArtista{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;  
+}
+
+.lista1{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
