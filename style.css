@@ -1,3 +1,4 @@
+/*/ARRANCA CON CELULAR --> "MOBILE FIRST" (Iphonexr)/*/
 *{
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -248,4 +249,261 @@
     text-align: center;
     color: black;
     font-size: 15px;
+}
+
+
+/*/A PARTIR DE  ACA ES COMPUTADORA/*/
+@media(min-width: 1000px){
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Mybody{
+    background-color: pink;
+    
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+
+}
+
+.buscador1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 70px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3px;
+
+}
+
+.content2{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding: 8px;
+    color: white;
+
+}
+
+.articulo1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.articulo2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+.h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    margin-top: 80px;
+
+}
+
+.foto{
+    size-adjust: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.nombreartista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+.ahome{
+    text-decoration: none;
+}
+
+.mybody{
+    background-color: pink;
+}
+/*.h1{
+    color: white;
+} */
+.caja1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.article1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+   border: 20px;
+   padding: 30px;
+
+
+}
+
+.imgcanciones{
+    
+    width: 200px;
+    height: 190px;
+    border-color: black;
+    border-width: 10px; border-style: solid;
+  
+    }
+    .h1-titulo{
+        color: black;
+        text-align: center;
+    }
+
+    .nombreplaylisyt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .divplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .divplaylist2{
+        margin-left: 10px;
+    }
+    .ulplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionplaylist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer-index{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 100px;
+        color: aliceblue;
+    }
+
+
+
+.imgDetailAlbum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}    
+
+.nombreAlbum{
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+.artista{
+    color: rgb(192, 28, 61);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;  
+}
+
+.genero{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.public{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.lista2{
+    text-align: center;
+    color: rgb(114, 9, 30);
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.sectionArtist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.articleArtist{
+    width: 350px;
+}
+
+.sinDelineado{
+    text-decoration: none;
+}
+
+.imgDetailArtist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.nombreArtista{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;  
+}
+
+.lista1{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
 }
