@@ -432,40 +432,41 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    border-radius: 50%;
 }    
 
 .nombreAlbum{
-    color: crimson;
+    color: black;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;  
 }
 
 .artista{
-    color: rgb(192, 28, 61);
+    color: black;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;  
 }
 
 .genero{
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold; 
 }
 
 .public{
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold; 
 }
 
 .lista2{
     text-align: center;
-    color: rgb(114, 9, 30);
-    font-size: 20px;
+    color: black;
+    font-size: 15px;
     list-style: none;
 }
 
@@ -475,8 +476,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
+    margin-top: 50px;
 }
 
 .articleArtist{
@@ -491,7 +491,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    border-radius: 50%;
 }
 
 .nombreArtista{
@@ -506,4 +506,28 @@
     color: black;
     font-size: 15px;
 }
+
+
+.articleAlbum{
+    width: 350px;
+}
+
+.sectionAlbum{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.articleCancion{
+    width: 350px;
+}
+
+.sectionCancion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
 }
