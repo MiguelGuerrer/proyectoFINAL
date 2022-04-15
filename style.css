@@ -1,4 +1,4 @@
-/*/ARRANCA CON CELULAR --> "MOBILE FIRST" (Iphone12pro)/*/
+/*/ARRANCA CON CELULAR --> "MOBILE first" /*/
 *{
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -12,7 +12,7 @@
 .logo{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     font-size: 30px;
     color: black;
 
@@ -21,282 +21,36 @@
 .buscador1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content:right;
+    font-size: 10px;
+    margin-top: -48px;
+
 }
+
+.search{
+    font-size: 8px;
+}
+
 
 .h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 70px;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    padding: 3px;
-
-}
-
-.content2{
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
-    padding: 8px;
-    color: white;
-
-}
-
-.articulo1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.articulo2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-
-
-.h3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: black;
-    margin-top: 80px;
-
-}
-
-.foto{
-    size-adjust: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-}
-
-.nombreartista{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Work Sans', sans-serif;
-    color: black;
-}
-
-.ahome{
-    text-decoration: none;
-}
-
-.mybody{
-    background-color: pink;
-}
-/*.h1{
-    color: white;
-} */
-.caja1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.article1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-around;
-   border: 20px;
-   padding: 30px;
-
-
-}
-
-.imgcanciones{
-    
-    width: 200px;
-    height: 190px;
-    border-color: black;
-    border-width: 10px; border-style: solid;
-    border-radius: 100px;
-  
-    }
-    .h1-titulo{
-        color: black;
-        text-align: center;
-    }
-
-    .nombreplaylisyt{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .divplaylist{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    .divplaylist2{
-        margin-left: 10px;
-    }
-    .ulplaylist{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .sectionplaylist{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .footer-index{
-        background-color: black;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        border-radius: 100px;
-        color: aliceblue;
-    }
-
-
-
-.imgDetailAlbum{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}    
-
-.nombreAlbum{
-    color: crimson;
-    text-align: center;
     font-size: 40px;
-    font-weight: bold;  
-}
-
-.artista{
-    color: rgb(192, 28, 61);
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;  
-}
-
-.genero{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold; 
-}
-
-.public{
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold; 
-}
-
-.lista2{
-    text-align: center;
-    color: rgb(114, 9, 30);
-    font-size: 20px;
-    list-style: none;
-}
-
-
-.sectionArtist{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.articleArtist{
-    width: 350px;
-}
-
-.sinDelineado{
-    text-decoration: none;
-}
-
-.imgDetailArtist{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
-.nombreArtista{
-    color: black;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;  
-}
-
-.lista1{
-    text-align: center;
-    color: black;
-    font-size: 15px;
-}
-
-
-/*/A PARTIR DE  ACA ES COMPUTADORA/*/
-@media(min-width: 1000px){
-
-*{
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.Mybody{
-    background-color: pink;
-    
-}
-
-.logo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 30px;
-    color: black;
-
-}
-
-.buscador1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-}
-
-.h1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 70px;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12vw;
+    margin-bottom: 3vw;
 }
 
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    padding: 3px;
+    justify-content:space-between;
+    width: 100%;
+    margin-left: -18px;
+
 
 }
 
@@ -304,8 +58,9 @@
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
-    padding: 8px;
+    padding: 3px;
     color: white;
+    font-size: 3vw;
 
 }
 
@@ -314,7 +69,8 @@
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 40px;
+   
 }
 
 .articulo2{
@@ -322,7 +78,8 @@
     flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 40px;
+
 }
 
 
@@ -337,9 +94,8 @@
 }
 
 .foto{
-    size-adjust: 5px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
 }
 
@@ -352,15 +108,10 @@
 }
 
 .ahome{
+    font-size: 10px;
     text-decoration: none;
 }
 
-.mybody{
-    background-color: pink;
-}
-/*.h1{
-    color: white;
-} */
 .caja1{
     display: flex;
     flex-wrap: wrap;
@@ -399,6 +150,9 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
+        margin-left: -40px;
+
     }
     .divplaylist2{
         margin-left: 10px;
@@ -415,6 +169,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: 62px;
     }
     .footer-index{
         background-color: black;
@@ -424,6 +179,11 @@
         justify-content: center;
         border-radius: 100px;
         color: aliceblue;
+
+    }
+
+    .footer-texto{
+        font-size: 10px;
     }
 
 
@@ -462,6 +222,11 @@
     text-align: center;
     font-size: 20px;
     font-weight: bold; 
+}
+.h1-generos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .lista2{
@@ -531,4 +296,300 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+
+
+/*/A PARTIR DE  ACA ES COMPUADORA/*/
+
+@media (min-width: 420px){
+
+    *{
+        box-sizing: border-box;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .Mybody{
+        background-color: pink;
+        
+    }
+    
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 30px;
+        color: black;
+    
+    }
+    
+    .buscador1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    .search{
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    .h1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 70px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 50px;
+    }
+    
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        padding: 3px;
+        margin-left: 0.5px;
+    
+    }
+    
+    .content2{
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        padding: 8px;
+        color: white;
+        font-size: 18px;
+    
+    }
+    
+    .articulo1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    .articulo2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    
+    
+    .h3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: black;
+        margin-top: 80px;
+    
+    }
+    
+    .foto{
+        size-adjust: 5px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+    
+    .nombreartista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Work Sans', sans-serif;
+        color: black;
+        font-size:15px;
+    }
+    
+    .ahome{
+        text-decoration: none;
+    }
+    
+    .mybody{
+        background-color: pink;
+    }
+    /*.h1{
+        color: white;
+    } */
+    .caja1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .article1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: space-around;
+       border: 20px;
+       padding: 30px;
+    
+    
+    }
+    
+    .imgcanciones{
+        
+        width: 200px;
+        height: 190px;
+        border-color: black;
+        border-width: 10px; border-style: solid;
+      
+        }
+        .h1-titulo{
+            color: black;
+            text-align: center;
+        }
+    
+        .nombreplaylisyt{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .divplaylist{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .divplaylist2{
+            margin-left: 10px;
+        }
+        .ulplaylist{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sectionplaylist{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .footer-index{
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 100px;
+            color: aliceblue;
+        }
+
+        .footer-texto{
+            font-size: 15px;
+        }
+    
+    
+    
+    .imgDetailAlbum{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        border-radius: 50%;
+    }    
+    
+    .nombreAlbum{
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;  
+    }
+    
+    .artista{
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;  
+    }
+    
+    .genero{
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+    
+    .public{
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+    
+    .lista2{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        list-style: none;
+    }
+    
+    
+    .sectionArtist{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    
+    .articleArtist{
+        width: 350px;
+    }
+    
+    .sinDelineado{
+        text-decoration: none;
+    }
+    
+    .imgDetailArtist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .nombreArtista{
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;  
+    }
+    
+    .lista1{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+    }
+    
+    
+    .articleAlbum{
+        width: 350px;
+    }
+    
+    .sectionAlbum{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    
+    .articleCancion{
+        width: 350px;
+    }
+    
+    .sectionCancion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
 }
