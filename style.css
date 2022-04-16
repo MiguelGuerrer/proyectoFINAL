@@ -402,6 +402,8 @@
         justify-content: center;
         color: black;
         margin-top: 80px;
+        font size: 50px;
+        font-weight: bold;
     
     }
     
@@ -458,6 +460,12 @@
         .h1-titulo{
             color: black;
             text-align: center;
+        }
+        .h2-titulo{
+            color: black;
+            text-align: center;
+font-size: 15px;
+ font-weight: bold;
         }
     
         .nombreplaylisyt{
