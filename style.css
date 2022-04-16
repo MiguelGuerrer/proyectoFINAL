@@ -132,7 +132,7 @@
 }
 
 .section1{
-    margin-bottom: 105px;
+    margin-bottom: 160px;
 }
 
 .imgcanciones{
@@ -149,7 +149,7 @@
     }
 
     .section2{
-        margin-bottom: 150px;
+        margin-bottom: 160px;
     }
     .nombreplaylisyt{
         display: flex;
@@ -204,8 +204,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
 }    
 
 .nombreAlbum{
