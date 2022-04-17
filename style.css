@@ -517,7 +517,9 @@
         width: 200px;
         height: 190px;
         margin-left: 75px;
-        border-radius: 100px;
+        border-color: black;
+        border-width: 10px; border-style: solid;
+      
     }    
     
     .nombreAlbum{
@@ -562,6 +564,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
     
     .articleArtist{
@@ -605,6 +608,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
     
     .articleCancion{
@@ -617,6 +621,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
 
     .imgDetailCancion{
@@ -625,7 +630,10 @@
         justify-content: center;
         width: 200px;
         height: 190px;
-        margin-left: 80px;
+        margin-left: 70px;
         border-radius: 100px;
     }
-}
+
+    .centrado{
+        text-align: center;
+    }
