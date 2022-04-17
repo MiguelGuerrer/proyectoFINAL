@@ -464,8 +464,8 @@
         .h2-titulo{
             color: black;
             text-align: center;
-font-size: 15px;
- font-weight: bold;
+            font-size: 15px;
+            font-weight: bold;
         }
     
         .nombreplaylisyt{
@@ -514,8 +514,10 @@ font-size: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        border-radius: 50%;
+        width: 200px;
+        height: 190px;
+        margin-left: 75px;
+        border-radius: 100px;
     }    
     
     .nombreAlbum{
@@ -574,7 +576,9 @@ font-size: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border-radius: 50%;
+        width: 200px;
+        height: 190px;
+        margin-left: 80px;
     }
     
     .nombreArtista{
@@ -613,5 +617,15 @@ font-size: 15px;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+    }
+
+    .imgDetailCancion{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        height: 190px;
+        margin-left: 80px;
+        border-radius: 100px;
     }
 }
