@@ -403,8 +403,12 @@
         color: black;
         margin-top: 80px;
         font size: 50px;
-        font-weight: bold;
+        
     
+    }
+    .h2-generos{
+        text-align: center;
+        font-weight: bold;
     }
     
     .foto{
@@ -455,6 +459,7 @@
         height: 190px;
         border-color: black;
         border-width: 10px; border-style: solid;
+        border-radius: 100px;
       
         }
         .h1-titulo{
