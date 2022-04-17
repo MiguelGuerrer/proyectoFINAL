@@ -316,7 +316,7 @@
 
 /*/A PARTIR DE  ACA ES COMPUADORA/*/
 
-@media (min-width: 420px){
+
 
     *{
         box-sizing: border-box;
@@ -606,4 +606,3 @@
         justify-content: space-between;
         margin-top: 50px;
     }
-}
