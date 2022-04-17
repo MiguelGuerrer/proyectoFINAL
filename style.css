@@ -527,9 +527,7 @@
         width: 200px;
         height: 190px;
         margin-left: 75px;
-        border-color: black;
-        border-width: 10px; border-style: solid;
-      
+        border-radius: 100px;
     }    
     
     .nombreAlbum{
@@ -659,4 +657,10 @@
         border-radius: 100px;
         border: solid 2px rgb(70, 65, 66);
         list-style: none;
+    }
+
+    .playlistPersonal{
+        text-align: center;
+        text-decoration: none;
+        margin-left: 90px;
     }
