@@ -128,8 +128,15 @@
     justify-content: space-between;
     border: 20px;
     padding: 30px;
+    
+}
 
-
+.article11{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .section1{
@@ -151,6 +158,10 @@
 
     .section2{
         margin-bottom: 160px;
+    }
+
+    .section5{
+        margin-bottom: 170px;
     }
     .nombreplaylisyt{
         display: flex;
@@ -288,12 +299,16 @@
 
 }
 
-.nombreArtista{
+
+
+.nombress{
     color: black;
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;  
+    font-size: 15px;
+    font-weight: bold;
 }
+
+
 
 .lista1{
     text-align: center;
@@ -575,7 +590,7 @@
         text-decoration: none;
     }
     
-    .nombreArtista{
+    .nombress{
         color: black;
         text-align: center;
         font-size: 25px;
