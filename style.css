@@ -139,6 +139,13 @@
     margin-top: 50px;
 }
 
+.article112{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    margin-top: 50px;
+}
+
 .section1{
     margin-bottom: 160px;
 }
@@ -313,7 +320,7 @@
 .lista1{
     text-align: center;
     color: black;
-    font-size: 2px;
+    font-size: 12px;
 }
 
 .divvv{
@@ -346,6 +353,29 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.imgDetailArtista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 115px;
+   
+}
+
+.imgDetailArtistasa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 140px;
 }
 
 
@@ -462,6 +492,7 @@
         color: black;
         font-size:18px;
     }
+    
     
     .ahome{
         text-decoration: none;
@@ -647,6 +678,17 @@
         margin-left: 90px;
     }
 
+    .imgDetailArtistasa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 90px;
+    }
+
     .imgDetailAlbum{
         display: flex;
         flex-wrap: wrap;
@@ -677,5 +719,14 @@
         text-align: center;
         text-decoration: none;
         margin-left: 90px;
+    }
+
+    .article112{
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    border: 20px;
+    padding: 30px;
     }
 }
