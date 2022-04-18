@@ -204,8 +204,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
+    padding: 3%;
+    background-color: white;
     
 }    
 
@@ -265,7 +268,9 @@
 }
 
 .articleArtist{
-    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sinDelineado{
@@ -273,10 +278,12 @@
 }
 
 .imgDetailArtist{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
     border-radius: 50%;
+    width: 300px;
+
 }
 
 .nombreArtista{
