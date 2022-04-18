@@ -242,6 +242,11 @@
     justify-content: center;
     font-size:10px ;
 }
+.h2-generos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
 
 .lista2{
     text-align: center;
@@ -316,7 +321,7 @@
 
 /*/A PARTIR DE  ACA ES COMPUADORA/*/
 
-
+@media (min-width:420px){
 
     *{
         box-sizing: border-box;
@@ -402,7 +407,13 @@
         justify-content: center;
         color: black;
         margin-top: 80px;
+        font-size: 50px;
+        
     
+    }
+    .h2-generos{
+        text-align: center;
+        font-weight: bold;
     }
     
     .foto{
@@ -453,11 +464,18 @@
         height: 190px;
         border-color: black;
         border-width: 10px; border-style: solid;
+        border-radius: 100px;
       
         }
         .h1-titulo{
             color: black;
             text-align: center;
+        }
+        .h2-titulo{
+            color: black;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
         }
     
         .nombreplaylisyt{
@@ -506,8 +524,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        border-radius: 50%;
+        width: 200px;
+        height: 190px;
+        margin-left: 75px;
+        border-radius: 100px;
     }    
     
     .nombreAlbum{
@@ -552,6 +572,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
     
     .articleArtist{
@@ -566,7 +587,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border-radius: 50%;
+        width: 200px;
+        height: 190px;
+        margin-left: 80px;
     }
     
     .nombreArtista{
@@ -593,6 +616,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
     
     .articleCancion{
@@ -605,4 +629,39 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 50px;
+        padding: 0 40px;
     }
+
+    .imgDetailCancion{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        height: 190px;
+        margin-left: 70px;
+        border-radius: 100px;
+    }
+
+    .centrado{
+        text-align: center;
+    }
+
+    .playlistAdd{
+        color: white;
+        height: 25px;
+        width: 300px;
+        margin: 20px;
+        background-color: rgb(68, 66, 66);
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 100px;
+        border: solid 2px rgb(70, 65, 66);
+        list-style: none;
+    }
+
+    .playlistPersonal{
+        text-align: center;
+        text-decoration: none;
+        margin-left: 90px;
+    }
+}
