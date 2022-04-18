@@ -204,8 +204,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
+    padding: 3%;
+    background-color: white;
     
 }    
 
@@ -245,7 +248,7 @@
 .h2-generos{
     text-align: center;
     font-weight: bold;
-    font size: 10px;
+    font-size: 10px;
 }
 
 .lista2{
@@ -265,7 +268,9 @@
 }
 
 .articleArtist{
-    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sinDelineado{
@@ -273,10 +278,12 @@
 }
 
 .imgDetailArtist{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
     border-radius: 50%;
+    width: 300px;
+
 }
 
 .nombreArtista{
@@ -321,7 +328,7 @@
 
 /*/A PARTIR DE  ACA ES COMPUADORA/*/
 
-@media (min-width: 420px){
+@media (min-width:420px){
 
     *{
         box-sizing: border-box;
@@ -407,7 +414,7 @@
         justify-content: center;
         color: black;
         margin-top: 80px;
-        font size: 50px;
+        font-size: 50px;
         
     
     }
@@ -643,3 +650,4 @@
         text-decoration: none;
         margin-left: 90px;
     }
+}
