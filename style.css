@@ -101,7 +101,7 @@
     border-radius: 100px;
 }
 
-.nombreartista{
+.nombreartista334{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -113,6 +113,7 @@
 .ahome{
     font-size: 10px;
     text-decoration: none;
+    color: black;
 }
 
 .caja1{
@@ -163,11 +164,12 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        margin-left: -40px;
+        margin-left: -40;
 
     }
     .divplaylist2{
         margin-left: 10px;
+      
     }
     .ulplaylist{
         display: flex;
@@ -296,7 +298,14 @@
 .lista1{
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 2px;
+}
+
+.divvv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -430,13 +439,13 @@
         border-radius: 100px;
     }
     
-    .nombreartista{
+    .nombreartistast{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         font-family: 'Work Sans', sans-serif;
         color: black;
-        font-size:15px;
+        font-size:18px;
     }
     
     .ahome{
@@ -582,10 +591,14 @@
     .articleDetail{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 70px;
+        
     }
     
     .sectionDetail{
+       
         padding: 0 60px;
         margin-bottom: 30px;
     }
@@ -614,7 +627,7 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 200px;
-        height: 190px;
+        height: 200px;
         border-radius: 100px;
         margin-left: 90px;
     }
