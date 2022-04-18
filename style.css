@@ -518,17 +518,7 @@
             font-size: 15px;
         }
     
-    
-    
-    .imgDetailAlbum{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 200px;
-        height: 190px;
-        margin-left: 75px;
-        border-radius: 100px;
-    }    
+
     
     .nombreAlbum{
         color: black;
@@ -565,31 +555,8 @@
         list-style: none;
     }
     
-    
-    .sectionArtist{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 50px;
-        padding: 0 40px;
-    }
-    
-    .articleArtist{
-        width: 350px;
-    }
-    
     .sinDelineado{
         text-decoration: none;
-    }
-    
-    .imgDetailArtist{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 200px;
-        height: 190px;
-        margin-left: 80px;
     }
     
     .nombreArtista{
@@ -605,40 +572,52 @@
         font-size: 15px;
     }
     
-    
-    .articleAlbum{
-        width: 350px;
-    }
-    
-    .sectionAlbum{
+    .articleDetail{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
         justify-content: space-between;
-        margin-top: 50px;
-        padding: 0 40px;
     }
     
-    .articleCancion{
-        width: 350px;
-    }
-    
-    .sectionCancion{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 50px;
-        padding: 0 40px;
+    .sectionDetail{
+        padding: 0 60px;
+        margin-bottom: 30px;
     }
 
+    .artic{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: space-around;
+        border: 20px;
+        padding: 30px;
+    }
+ 
     .imgDetailCancion{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 200px;
         height: 190px;
-        margin-left: 70px;
+        border-radius: 100px;
+        margin-left: 75px;
+    }
+
+    .imgDetailArtista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        height: 190px;
+        border-radius: 100px;
+        margin-left: 90px;
+    }
+
+    .imgDetailAlbum{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        height: 190px;
         border-radius: 100px;
     }
 
