@@ -36,7 +36,7 @@ fetch(url)
     
     let etiquetaArtistas = document.querySelector('#artistasGenero');
     
-    for (let i = 0; i < 3 ;i++) {
+    for (let i = 0; i < 6 ;i++) {
         contenido += `<div class="hola"> 
                                     <a href="detallegeneros.html">  <img src="${artistas[i].picture}" alt="" class="imgcanciones" ></a>
                                     <h2 class="nombress">${artistas[i].name}</h2>
