@@ -101,7 +101,25 @@
     border-radius: 100px;
 }
 
-.nombreartistast{
+.canciones2322{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 10px;
+}
+
+.albums2322{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 10px;
+}
+
+.artistas2322{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
