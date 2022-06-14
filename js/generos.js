@@ -15,7 +15,7 @@ fetch(endpoint)
             <h2 class="nombress">${data.data[i].name}</h2>
 
         </div> 
-        <hr>` 
+    ` 
             
         }
       

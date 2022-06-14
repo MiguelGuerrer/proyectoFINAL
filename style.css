@@ -710,3 +710,37 @@
         margin-left: 90px;
     }
 }
+.article11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.article11 div {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.article11 div h2{
+    width: 100%;
+    justify-content: center
+}
+.article1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.article1 div {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.article1 div h2{
+    width: 100%;
+    justify-content: center
+}
+
