@@ -15,3 +15,4 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
         resultadosB.innerHTML += `<h4><a class="busqueda-palabra" href="detallecancion.html?id=${busqueda.data[i].id}">${busqueda.data[i].title}</a></h4>`
     }
 })
+
