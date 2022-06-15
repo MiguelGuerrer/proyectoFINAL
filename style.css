@@ -107,7 +107,7 @@
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .albums2322{
@@ -116,7 +116,7 @@
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .artistas2322{
@@ -125,7 +125,7 @@
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .ahome{
@@ -688,6 +688,14 @@
     }
 
     .centrado{
+        text-align: center;
+    }
+
+    .centrado2{
+        text-align: center;
+    }
+
+    .centrado3{
         text-align: center;
     }
 
