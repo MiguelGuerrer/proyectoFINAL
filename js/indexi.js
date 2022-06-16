@@ -18,8 +18,8 @@ fetch("https://api.allorigins.win/raw?url=https://api.deezer.com/chart")
 
     for (let i = 0; i < 5; i++) {
         cancion.innerHTML += `<div class="div1"> 
-        <a href="./detallecancion.html?id=${topCanciones[i].id}"><img  class="foto" src=${topCanciones[i].album.cover_big}></a>
-        <a class="ahome" href="./detallecancion.html"><h4  class="canciones2322" >${topCanciones[i].title_short}</h4></a> 
+        <a href="detallecancion.html" class="sinDelineado"?id=${topCanciones[i].id}"><img  class="foto" src=${topCanciones[i].album.cover_big}></a>
+        <a class="ahome" href="detallecancion.html" class="sinDelineado"><h4  class="canciones2322" >${topCanciones[i].title_short}</h4></a> 
         </div>`
     } 
        

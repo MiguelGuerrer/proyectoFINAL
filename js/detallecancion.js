@@ -2,7 +2,7 @@ let queryString = location.search //Caputro del url toda la qs
 let queryObject = new URLSearchParams(queryString); //La transformamos en OL por new url..
 let id = queryObject.get('id');//obtengo el id y lo pongo en url
 
-let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/3135556${id}`;
+let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/3135556${queryObject}`;
 
 fetch( url )
 .then( function(response){
@@ -31,50 +31,6 @@ return response.json();//convertimos la info en formato json
 
     let player = document.querySelector(".iframe1");
     //creamos ruta hacia iframe
-    player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.id}" width="100%" height="300" frameBorder="0"></iframe>`;
+    player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.link}" width="100%" height="300" frameBorder="0"></iframe>`;
 
 })
-
-const fav = document.querySelector("#fav");
-    let favoritosP = [];
-    let recuperoStorage = localStorage.getItem("favoritosP");
-
-    if (recuperoStorage && recuperoStorage != null) {
-
-      favoritosP = JSON.parse(recuperoStorage);
-
-    }
-    console.log(favoritosP);
-
-
-    if (favoritosP.includes(id)) {
-      fav.innerHTML = `
-   <h3><a id="fav"> Quitar de favoritos </a></h3>   `
-
-      fav.addEventListener("click", function (e) {
-
-        e.preventDefault();
-
-        if (favoritosP.includes(id)) {
-
-          let borrar = favoritosP.indexOf(id);
-          favoritosP.splice(borrar, 1);
-          fav.innerHTML = `
-          
-      <h3><a id="fav"> Agregar a favoritos </a></h3>   `
-
-        } else {
-
-          favoritosP.push(id);
-          fav.innerHTML = 
-          `<h3><a id="fav"> Quitar de favoritos </a></h3>   `
-
-        }
-
-        let favStorageP = JSON.stringify(favoritosP);
-        localStorage.setItem("favoritos", favStorageP);
-
-
-      });
-
-    }
