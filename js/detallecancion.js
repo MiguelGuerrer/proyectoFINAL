@@ -2,7 +2,7 @@ let queryString = location.search //Caputro del url toda la qs
 let queryObject = new URLSearchParams(queryString); //La transformamos en OL por new url..
 let id = queryObject.get('id');//obtengo el id y lo pongo en url
 
-let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/3135556${queryObject}`;
+let url = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/3135556${id}`;
 
 fetch( url )
 .then( function(response){
@@ -35,18 +35,46 @@ return response.json();//convertimos la info en formato json
 
 })
 
-// //Agregar a playlist. creo array donde va a ir la playlist
-let playlist = [];
-    
-//Recuperar datos del storage cn propiedad playlist
-let recuperoStorage = localStorage.getItem('playlist');
+const fav = document.querySelector("#fav");
+    let favoritosP = [];
+    let recuperoStorage = localStorage.getItem("favoritosP");
 
-//Chequear y agregar la información de local storage en el array
-if(recuperoStorage != null){ //distinto de null entonces 
-    playlist = JSON.parse(recuperoStorage);// me devolvio algo q lo parseo y meto en playlist
-}
+    if (recuperoStorage && recuperoStorage != null) {
 
-//Chequear que el id esté en el array para cambiar el texto al usuario.
-if(playlist.includes(id)){ //uso method de arry nuevo
-document.querySelector('.namesagregar').innerText = "Eliminar de mi playlist";
-}
+      favoritosP = JSON.parse(recuperoStorage);
+
+    }
+    console.log(favoritosP);
+
+
+    if (favoritosP.includes(id)) {
+      fav.innerHTML = `
+   <h3><a id="fav"> Quitar de favoritos </a></h3>   `
+
+      fav.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        if (favoritosP.includes(id)) {
+
+          let borrar = favoritosP.indexOf(id);
+          favoritosP.splice(borrar, 1);
+          fav.innerHTML = `
+          
+      <h3><a id="fav"> Agregar a favoritos </a></h3>   `
+
+        } else {
+
+          favoritosP.push(id);
+          fav.innerHTML = 
+          `<h3><a id="fav"> Quitar de favoritos </a></h3>   `
+
+        }
+
+        let favStorageP = JSON.stringify(favoritosP);
+        localStorage.setItem("favoritos", favStorageP);
+
+
+      });
+
+    }

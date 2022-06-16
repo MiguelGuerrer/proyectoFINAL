@@ -21,7 +21,7 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
 
             <div class="div1"> 
         <a href="./detalleartistas.html?id=${busqueda.data[i].id}"><img  class="foto" src=${busqueda.data[i].album.cover}></a>
-        <a class="ahome" href="./detalleartistas.html"><h4  class="albums2322" >${busqueda.data[i].title}</h4></a> 
+        <a class="ahome" href="./detallecancion.html"><h4  class="albums2322" >${busqueda.data[i].title}</h4></a> 
         </div>
             `
 
