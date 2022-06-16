@@ -16,7 +16,6 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
 
             resultadosB.innerHTML += `
             
-    
 
 
             <div class="div1"> 
@@ -26,5 +25,11 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
             `
 
     }
+})
+.then(function (busqueda) {
+    
+}).catch(function (error) {
+    console.log(error);
+    alert(`No encontramos resultados para:${search}`)
 })
 
