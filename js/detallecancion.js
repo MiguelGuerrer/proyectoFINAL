@@ -34,3 +34,19 @@ return response.json();//convertimos la info en formato json
     player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.id}" width="100%" height="300" frameBorder="0"></iframe>`;
 
 })
+
+// //Agregar a playlist. creo array donde va a ir la playlist
+let playlist = [];
+    
+//Recuperar datos del storage cn propiedad playlist
+let recuperoStorage = localStorage.getItem('playlist');
+
+//Chequear y agregar la información de local storage en el array
+if(recuperoStorage != null){ //distinto de null entonces 
+    playlist = JSON.parse(recuperoStorage);// me devolvio algo q lo parseo y meto en playlist
+}
+
+//Chequear que el id esté en el array para cambiar el texto al usuario.
+if(playlist.includes(id)){ //uso method de arry nuevo
+document.querySelector('.namesagregar').innerText = "Eliminar de mi playlist";
+}
