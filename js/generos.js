@@ -1,5 +1,5 @@
 
-let endpoint = 'https://api.allorigins.win/raw?url=https://api.deezer.com/genre/'
+let endpoint = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'
 
 
 fetch(endpoint)

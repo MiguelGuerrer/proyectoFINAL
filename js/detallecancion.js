@@ -3,9 +3,8 @@ let queryObject = new  URLSearchParams(queryString);
 let id = queryObject.get('id');
 
 console.log(id);
-let url =`https://api.allorigins.win/raw?url=https://api.deezer.com/track/${id}`
 
-
+let url=(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`)
 
 fetch(url)
 .then(function(response){
@@ -32,7 +31,7 @@ let album = document.querySelector(".centrado3");
 
 let player = document.querySelector(".iframe1");
     //creamos ruta hacia iframe
-    player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.id}" width="100%" height="300" frameBorder="0"></iframe>`;
+    player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.title}" width="100%" height="300" frameBorder="0"></iframe>`;
 
 
     let playlist = [];

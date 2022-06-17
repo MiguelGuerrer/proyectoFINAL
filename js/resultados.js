@@ -1,7 +1,7 @@
 let objeto = new URLSearchParams (location.search);
 let search = objeto.get("search");
 
-fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${search}`)
+fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${search}`)
 .then( function(respuesta){
     return respuesta.json()
 })

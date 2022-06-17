@@ -16,7 +16,7 @@
 
 
     function buscarYMostrarPlaylist(id){
-        let url =`https://api.allorigins.win/raw?url=https://api.deezer.com/track/${id}`
+        let url =`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`
         
         //buscamos info de la api
         fetch(url)
