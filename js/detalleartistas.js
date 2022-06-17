@@ -3,7 +3,7 @@ let queryStringToObject = new URLSearchParams(queryString); //La transformamos e
 let id = queryStringToObject.get('id');
 console.log(id);
 
-fetch (`https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${id}`)
+fetch (`https://cors-anywhere.herokuapp.com/?url=https://api.deezer.com/artist/${id}`)
 .then (function (response) {
     return response.json();
 })
@@ -24,7 +24,7 @@ fetch (`https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${id}`)
 })
 
 /*Top 5*/
-let rutaTop5= `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${id}`
+let rutaTop5= `https://cors-anywhere.herokuapp.com/?url=https://api.deezer.com/artist/${id}`
 
 fetch(rutaTop5)
 .then(function (response) {
