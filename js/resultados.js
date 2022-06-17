@@ -11,6 +11,7 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
     let resultados = busqueda.data
     let resultadosB = document.querySelector(".articulo1")
     let encabezado = document.querySelector("#busqueda")
+    
     for(let i = 0; i < resultados.length; i++){
 
 
@@ -25,11 +26,5 @@ fetch(`https://api.allorigins.win/raw?url=https://api.deezer.com/search?q=${sear
             `
 
     }
-})
-.then(function (busqueda) {
-    
-}).catch(function (error) {
-    console.log(error);
-    alert(`No encontramos resultados para:${search}`)
 })
 
