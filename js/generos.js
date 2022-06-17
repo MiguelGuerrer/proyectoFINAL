@@ -1,7 +1,7 @@
 
 let endpoint = 'https://api.allorigins.win/raw?url=https://api.deezer.com/genre/'
-    
-        
+
+
 fetch(endpoint)
     .then(function(response) {
         return response.json();
