@@ -2,7 +2,7 @@ let qs = location.search;
 let qsOL = new URLSearchParams(qs);
 let id = qsOL.get('idGenero');
 
-let endpoint = `https://api.allorigins.win/raw?url=https://api.deezer.com/genre/${id}`
+let endpoint = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/${id}`
 
 fetch(endpoint)
 .then(function(response) {

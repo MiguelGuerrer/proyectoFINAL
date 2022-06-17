@@ -13,7 +13,7 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${sea
     let encabezado = document.querySelector("#busqueda")
     
     encabezado.innerText += `${search}`
-    for(let i = 0; i < resultados.length; i++){
+    for(let i = 0; i < 12; i++){
 
 
             resultadosB.innerHTML += `
