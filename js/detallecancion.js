@@ -23,15 +23,15 @@ let img = document.querySelector(".imgDetailCancion");
 
 let artista = document.querySelector(".centrado2");
     //creamos ruta hacia nombre artista
-    artista.innerHTML +=  `<a href="./detail-artist.html?id=${data.artist.id}"> ${data.artist.name} </a>`;
+    artista.innerHTML +=  `<a class="drake" href="./detail-artist.html?id=${data.artist.id}"> ${data.artist.name} </a>`;
 
 let album = document.querySelector(".centrado3");
     //creamos ruta hacia album
-    album.innerHTML +=  `<a href="./detail-album.html?id=${data.album.id}"> ${data.album.title} </a>`;
+    album.innerHTML +=  `<a class="drake" href="./detail-album.html?id=${data.album.id}"> ${data.album.title} </a>`;
 
 let player = document.querySelector(".iframe1");
     //creamos ruta hacia iframe
-    player.innerHTML +=`<iframe src="https://open.spotify.com/embed/track/41wtwzCZkXwpnakmwJ239F${data.title}" width="100%" height="300" frameBorder="0"></iframe>`;
+    player.innerHTML +=`<iframe src="${data.title}" width="100%" height="300" frameBorder="0"></iframe>`;
 
 
     let playlist = [];
