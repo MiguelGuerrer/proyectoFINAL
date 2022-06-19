@@ -12,7 +12,7 @@ fetch(endpoint)
     console.log(data);
     
     let etiquetaGenero = document.querySelector('#tituloGenero');
-    etiquetaGenero.innerText = `Genero : ${data.name}`
+    etiquetaGenero.innerText = `Genero : ${data.name}  `
    
 
 }).catch(function(error) {
