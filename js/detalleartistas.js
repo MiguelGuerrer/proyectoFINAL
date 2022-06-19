@@ -3,28 +3,23 @@ let queryStringToObject = new URLSearchParams(queryString); //La transformamos e
 let id = queryStringToObject.get('id');
 console.log(id);
 
-fetch (`https://cors-anywhere.herokuapp.com/?url=https://api.deezer.com/artist/${id}`)
-.then (function (response) {
-    return response.json();
+fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}`)
+.then(function(response){
+  return response.json();
 })
-.then(function (data) {
-    console.log(data)
+.then(function(data){
+  console.log(data);
 
         let title = document.querySelector('.nombreartistast')
-        imprimir.innerHTML += `<h3 class="nombreartistast"> ${data.name} </h3>
+        title.innerHTML = `<h3 class="nombreartistast"> ${data.name} </h3>`
 
-        <img src="${data.picture_big}" alt="" class="imgDetailArtista">`
-        /*title.innerText = data.name*/
-
-        let imagenArtista = document.querySelector('.imgDetailArtista"')
-        /*imagenArtista.innerHTML += `<img src="${data.picture_medium}" alt="">`*/
-})
-.catch(function (error) {
-    console.log(error);
-})
+        let imagen = document.querySelector('.imgDetailArtista')
+        console.log(imagen);
+        imagen.src = data.picture_big /* puse src como si fuese un objeto literal entonces despues */
+        /*`<img src="${data.picture_big}" alt="" class="imgDetailArtista">`*/
 
 /*Top 5*/
-let rutaTop5= `https://cors-anywhere.herokuapp.com/?url=https://api.deezer.com/artist/${id}`
+let rutaTop5= `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}/albums`
 
 fetch(rutaTop5)
 .then(function (response) {
@@ -32,13 +27,12 @@ fetch(rutaTop5)
 })
 .then(function (data) {  
     console.log(data);
-    let imprimirTop5 = document.querySelector('.top5');
-    for (let i = 0; i <=5; i++) {
-    let canciones = data.data[i].title;
-    console.log(canciones)
 
-    imprimirTop5.innerHTML +=`<li>${canciones}</li>`
+    let imprimirTop5 = document.querySelector('.top5');
+    for (let i = 0; i <=4; i++) {
+    imprimirTop5.innerHTML +=`<a href="./detallealbum.html?id=${data.data[i].id}"> <li class="lista1">${data.data[i].title}</li> </a>`
 }
+})
 })
 
 .catch(function (error) {

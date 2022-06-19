@@ -31,8 +31,9 @@ let album = document.querySelector(".centrado3");
 
 let player = document.querySelector(".iframe1");
     //creamos ruta hacia iframe
-    player.innerHTML +=`<iframe src="${data.title}" width="100%" height="300" frameBorder="0"></iframe>`;
-
+    player.innerHTML =`<iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/${id}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+    console.log(player.innerHTML);
+    console.log(`src="https://widget.deezer.com/widget/dark/track/${id}"`);
 
     let playlist = [];
     
