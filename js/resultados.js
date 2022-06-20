@@ -1,5 +1,7 @@
 let objeto = new URLSearchParams (location.search);
+//agarras el valor del search que es lo que busco el usuario
 let search = objeto.get("search");
+
 
 fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${search}`)
 .then( function(respuesta){
@@ -8,7 +10,10 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${sea
 .then( function(busqueda){
     console.log(busqueda.data)
     
+    //almacena en esa variable un bloque de infomracion que yo quiero mostrar
     let resultados = busqueda.data
+   
+    // articulo 1 el article y h2 el id busqueda
     let resultadosB = document.querySelector(".articulo1")
     let encabezado = document.querySelector("#busqueda")
     
@@ -29,5 +34,6 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${sea
     }
 }).catch(function (error) {
     console.error(error)
+    alert(`No encontramos resultados para:${search}`)
 })
 
