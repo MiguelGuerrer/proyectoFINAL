@@ -3,17 +3,17 @@ let queryStringToObject = new URLSearchParams(queryString); //La transformamos e
 let id = queryStringToObject.get('id');
 console.log(id);
 
-fetch (`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`)
-.then (function(response){
-    return response.json()
-}).then(function(data){
-    console.log(data);
+fetch (`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`) //proporcionamos la ruta de donde queremos obtener los datos
+.then (function(response){ //le pasamos el parametro de response
+    return response.json() //transformamos la rta a un formato que podamos manipular
+}).then(function(data){ //le pasamos el parametro data
+    console.log(data); // log para ver por consola como me retorna la data
 
-    let generos = `Este disco no tiene generos asignados`
-    for (let i = 0; i < data.genres.data.length; i++) {
-        if (i==0) {
-            generos = `<a href="./detallegeneros.html?id=${data.genres.data[i].id}">${data.genres.data[i].name}</a>`;
-        } else{
+    let generos = `Este disco no tiene generos asignados` // Buscamos lo generos de la api
+    for (let i = 0; i < data.genres.data.length; i++) {  // Recorremos el array de resultados
+        if (i==0) { //Si existe un genero, va a reemplazar a el texto anterior
+            generos = `<a href="./detallegeneros.html?id=${data.genres.data[i].id}">${data.genres.data[i].name}</a>`; 
+        } else{ // Si existe mas de un genero, se lo agrega a la variable genros y se imprime
             generos += `, <a href="./detallegeneros.html?id=${data.genres.data[i].id}">${data.genres.data[i].name}</a>`;
         }   
     } 
@@ -33,6 +33,6 @@ fetch (`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`)
     <ul class="lista-cancion123">${canciones}</ul>`
 })
 
-.catch(function(error)
-{ console.log(error);
+.catch(function(error) //catch para atrapar los errores en cualquier instancia de fetch
+{ console.log(error); //log para que aparezca el error por consola
 })
