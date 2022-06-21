@@ -16,7 +16,6 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}`)
         let imagen = document.querySelector('.imgDetailArtista')
         console.log(imagen);
         imagen.src = data.picture_big /* puse src como si fuese un objeto literal entonces despues */
-        /*`<img src="${data.picture_big}" alt="" class="imgDetailArtista">`*/
 
 /*Top 5*/
 let rutaTop5= `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}/albums`
