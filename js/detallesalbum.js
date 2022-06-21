@@ -33,6 +33,6 @@ fetch (`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`)
     <ul class="lista-cancion123">${canciones}</ul>`
 })
 
-.catch(function(error) //catch para atrapar los errores en cualquier instancia de fetch
-{ console.log(error); //log para que aparezca el error por consola
+.catch(function(error) { //catch para atrapar los errores en cualquier instancia de fetch (si al momento de crear el data hay un error este me lo va a entregar)
+    console.log(error); //log para que aparezca el error por consola
 })
